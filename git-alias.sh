@@ -1,6 +1,6 @@
 #!/bin/bash
-MSG="Aliasy Git"
-echo $MSG
+
+echo "Aliasy Git"
 
 git config --global alias.ch checkout && 
 git config --global alias.b branch && 
