@@ -1,0 +1,34 @@
+[core]
+	autocrlf = true
+	excludesfile = C:\\Users\\s.suszko\\Documents\\gitignore_global.txt
+[user]
+	name = Szymon Suszko
+	email = s.suszko@nowaera.pl
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	trustExitCode = false
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	trustExitCode = false
+[alias]
+	co = checkout
+	ch = checkout
+	c = commit -m
+	ci = commit - m
+	s = status
+	st = status
+	sh = stash
+	shp = stash pop
+	shl = stash list
+	a = add .
+	b = branch
+	f = fetch
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
