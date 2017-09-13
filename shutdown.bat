@@ -1,3 +1,4 @@
+:: Run this file as Administrator
 @echo off
 set /p min=Za ile minut? Wpisz 'a' aby anulowac odliczanie. 
 set /a sec=(60*min)
